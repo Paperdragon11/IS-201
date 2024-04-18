@@ -1,0 +1,119 @@
+/* This is a p element thing it'll effect any p element that has this .css file linked to it*/
+
+p{
+    font-family: sans-serif;
+    border: 3px solid black;
+    margin: 38px;
+    padding:18px;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    padding: 0px;
+}
+
+
+.special_text{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+
+.default_div{
+    position: absolute;
+    border: solid 2px black;
+}
+
+.header{
+    top: 0;
+    left: 100px;
+    right: 5px;
+    height: 100px;
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: none;
+    margin-left: 6px;
+    z-index: 999;
+}
+
+
+.left_menu{
+    top: 0;
+    left: 5px;
+    width: 100px;
+    bottom: 0;
+    background-color: beige;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 998;
+}
+
+.main_content{
+    top: 114px;
+    left: 114px;
+    right: 5px;
+    background-color: lightskyblue;
+}
+
+.center_this{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img_size{
+        max-width: 40%;
+        max-height: 40%;
+        display: block;
+        margin: auto;
+}
+
+p span.centered_title{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.font_big{
+    font-size: 30px
+}
+
+.separate_lines {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu_list li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu_list2 li a {
+    text-decoration: none;
+    font-size: 20px;
+}
